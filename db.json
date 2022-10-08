@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Abdelmassih",
+      "email": "aaa@yahoo.com",
+      "password": "123",
+      "mobile": 1011111111,
+      "id": 1
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 2
+    },
+    {
+      "fullname": "Abdelmassih",
+      "email": "aaa@yahoo.com",
+      "password": "777",
+      "mobile": 1011111111,
+      "id": 3
+    },
+    {
+      "fullname": "A",
+      "email": "A@A.com",
+      "password": "A",
+      "mobile": 1,
+      "id": 4
+    },
+    {
+      "fullname": "erere",
+      "email": "",
+      "password": "",
+      "mobile": 3434,
+      "id": 5
+    },
+    {
+      "fullname": "Abdelmassih",
+      "email": "Abdo@yahoo.com",
+      "password": "123",
+      "mobile": 1022222222,
+      "id": 6
+    },
+    {
+      "fullname": "www",
+      "email": "www.www.com",
+      "password": "111",
+      "mobile": 12312312,
+      "id": 7
+    },
+    {
+      "fullname": "qqw",
+      "email": "c@c.com",
+      "password": "555",
+      "mobile": 11111111111,
+      "id": 8
+    },
+    {
+      "fullname": "ahmed",
+      "email": "Ahmed@yahoo.com",
+      "password": "123",
+      "mobile": 1011111111,
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,44 @@
+<div class="container-fluid bg">
+
+  <div class="row justify-content-center">
+<div class="col-12 col-sm-6 col-md-3">
+  <div class="formcontainer">
+
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+      <h1>Signup</h1>
+      <h5>Register yourself</h5>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">Full name</label>
+          <input formControlName="fullname" type="text" class="form-control" id="exampleInputName1" placeholder="Full Name">
+          <span class="text-danger" *ngIf="signupForm.controls['fullname'].dirty && signupForm.hasError('required','fullname')">*full name is required  </span>
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputMobile1" class="form-label">Mobile number</label>
+          <input formControlName="mobile" type="number" class="form-control" id="exampleInputMobile1" placeholder="Mobile">
+          <span class="text-danger" *ngIf="signupForm.controls['mobile'].dirty && signupForm.hasError('required','mobile')">*Mobile is required  </span>
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+          <span class="text-danger" *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required','email')">*Email is required  </span>
+
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <span class="text-danger" *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required','password')">*Password is required  </span>
+
+        </div>
+        <button type="submit" class="btn button mb-2" [disabled]="!signupForm.valid">Signup</button>
+    </form>
+    <a routerLink="/login">You already have account? CLick login </a>
+
+  </div>
+</div>
+
+  </div>
+
+</div>

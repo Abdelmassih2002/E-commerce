@@ -1,0 +1,17 @@
+*{
+  font-family: cursive;
+  box-sizing: border-box
+}
+
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 0;
+  background-image: url("https://st2.depositphotos.com/2940967/12391/i/950/depositphotos_123918964-stock-photo-abstract-blur-coffee-shop-background.jpg");
+  background-size: 1366px 630px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
